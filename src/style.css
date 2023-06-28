@@ -1,0 +1,125 @@
+:root {
+  font-family: Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: #f66793;
+}
+
+#subtitle {
+  color: #f997b5;
+  font-style: italic;
+}
+
+#drum-machine {
+  background-color: #777;
+  
+  border-style: none;
+  border-radius: 28px;
+  
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.3);
+  
+  height: fit-content;
+  width: fit-content;
+  padding: 20px;
+  margin-bottom: 10px;
+
+  align-content: center;
+  justify-content: center;
+  
+  display: inline-block;
+}
+
+.schemeButton {
+  background-color: #111;
+  
+  border-style: none;
+  border-radius: 12px;
+  
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  height: 36px;
+  width: 36px;
+  margin: 0px 6px 6px 6px;
+  
+  font-size: 0.8em;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.schemeButton:hover {
+  font-weight: bold;
+  transform: scale(1.02);
+}
+
+.schemeButton:active {
+  background-image: radial-gradient(#ebded6, #eee);
+  transform: scale(0.98);
+}
+
+.topPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.drum-pad {
+  background-color: #eee;
+  background-image: radial-gradient(#eee, #fff);
+  
+  border-style: none;
+  border-radius: 20px;
+  
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  height: 70px;
+  width: 90px;
+  margin: 4px;
+  font-size: 3.2em;
+  
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.drum-pad:hover {
+  font-weight: bold;
+  transform: scale(1.02);
+}
+
+.drum-pad:active {
+  background-image: radial-gradient(#ebded6, #eee);
+  transform: scale(0.98);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+#display {
+  background-color: #fff;
+  border-style: thin;
+  border-color: #999;
+  border-radius: 8px;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.3);
+  
+  height: 40px;
+  width: 180px;
+  margin: 0px 6px 6px 6px;
+  
+  font-size: 1.4em;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  color: #f997b5;
+}
